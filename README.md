@@ -8,6 +8,7 @@ Software used:
 4) Solidity
 
 Real-World Use-Case for this Project
+
 💡 Can be part of a supply-chain solution
 
 💡 Automated Dispatch upon payment
