@@ -1,4 +1,4 @@
-# Steps to install truffle
+# Steps to install truffle ✔
 
 Truffle is a world-class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier. It is made for managing smart contract and connectivity with blockchain.
 
@@ -9,3 +9,8 @@ Truffle is a world-class development environment, testing framework and asset pi
 5) NEW-ITEM 'supplychain' -ITEMTYPE DIRECTORY
 6) On Powershell-->truffle unbox react
 7) Download https://github.com/truffle-box/react-box
+
+# To start truffle development ✔
+1) truffle devlelopment--> Gives 10 accounts and 10 keys
+2) migrate--> migarate the sc to test env
+3) npm start--> goes to json connect metamask and works
