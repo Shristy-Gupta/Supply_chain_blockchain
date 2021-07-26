@@ -38,3 +38,10 @@ module.exports = {
    
  }
 };
+6) Now point the Item manager contract in the deploy_contracts.js file
+var SimpleStorage = artifacts.require("./ItemManager.sol");
+
+module.exports = function(deployer) {
+  deployer.deploy(SimpleStorage);
+};
+
