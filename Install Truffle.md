@@ -49,11 +49,12 @@ module.exports = function(deployer) {
 8) ![image](https://user-images.githubusercontent.com/26459890/127017052-940b2276-0dec-49c8-bd42-78280a33f3c5.png)
 
 
-# To see the results
+# To see the results ✔
 
 1) copy the address from the network key:
 ![image](https://user-images.githubusercontent.com/26459890/127040781-238d3456-2dad-4215-9f4a-669032f5560a.png)
 2) Go to Remix choose following config and deploy
 ![image](https://user-images.githubusercontent.com/26459890/127041705-c8df2cda-5c41-4278-98d9-01585704e164.png)
+3) To make a transaction you can do->web3.eth.sendTransaction({to:"0x66181332ad520855851e25789bb876CB42671363",value:10,from:accounts[1],gas:300000})
 
 
