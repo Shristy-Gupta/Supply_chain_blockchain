@@ -14,3 +14,27 @@ Truffle is a world-class development environment, testing framework and asset pi
 1) truffle devlelopment--> Gives 10 accounts and 10 keys
 2) migrate--> migarate the sc to test env
 3) npm start--> goes to json connect metamask and works
+4) Write your smart contracts in solidity folder
+5) To specify the solidity version make following changes in the version of truffle.config file
+const path = require("path");
+
+module.exports = {
+
+  // See <http://truffleframework.com/docs/advanced/configuration>
+  
+  // to customize your Truffle configuration!
+  
+  contracts_build_directory: path.join(__dirname, "client/src/contracts"),
+  
+  networks: {
+    develop: {
+      port: 8545
+    }
+  },
+ compilers:{
+   solc:{
+     version:"0.6.1"
+   }
+   
+ }
+};
